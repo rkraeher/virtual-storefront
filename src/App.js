@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navigation";
+import Banner from "./components/Banner"
 
 // replace this component with a Routes component that contains all routes, nav and provider wrapper
 function App() {
@@ -10,14 +11,7 @@ function App() {
       <Navbar />
 
       {/* Heroic Banner */}
-      <section>
-        {/* banner background image */}
-        <div>
-          <h1>Headline/Banner</h1>
-          <h2>Descriptive text</h2>
-          <button>Solutions</button>
-        </div>
-      </section>
+      <Banner />
 
       {/* Services  */}
       <section>
